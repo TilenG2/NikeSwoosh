@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Mohave', sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+body {
+    /* background: rgb(25, 52, 109); */
+    width: 100%;
+    height: 100%;
+}
+
+
+/* uvod */
+
+.uvod {
+    vertical-align: top;
+    align-items: center;
+    height: 110vh;
+    background: rgba(25, 52, 109);
+    background: linear-gradient(180deg, rgba(25, 52, 109, 1) 0%, rgb(75, 161, 189) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.uvod .vsebina {
+    display: flex;
+}
+
+.uvod img {
+    margin-top: 10vh;
+    width: 50vh;
+}
+
+.uvod .text {
+    color: white;
+    text-transform: uppercase;
+    width: 90vh;
+    font-size: 10vh;
+    margin-top: 10vh;
+    margin-left: 6vh;
+}
+
+.uvod svg {
+    margin-top: auto;
+}
+
+
+/* superga PNG */
+
+.prvi {
+    align-items: center;
+    background: rgb(245, 245, 245);
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.prvi .naslov {
+    text-transform: uppercase;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.prvi .vsebina {
+    display: flex;
+    margin-top: 5vh;
+}
+
+.prvi .text {
+    margin: 10vh 0 0 10vh;
+    font-size: 3vh;
+    width: 70vh;
+}
+
+.prvi img {
+    width: 70vh;
+}
+
+.superga {
+    position: relative;
+}
+
+#superga_nike {
+    position: absolute;
+    width: 19.5vh;
+    top: 29.7vh;
+    left: 25.7vh;
+    opacity: 10%;
+}
+
+.prvi svg {
+    margin-top: auto;
+}
+
+
+/* majca SVG */
+
+.drugi {
+    align-items: center;
+    background: rgb(75, 161, 189);
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    background: linear-gradient(180deg, rgba(75, 161, 189, 1) 0%, rgb(30, 91, 161, 1) 90%);
+}
+
+.drugi .naslov {
+    text-transform: uppercase;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.drugi .vsebina {
+    display: flex;
+    margin-top: 10vh;
+    height: 70vh;
+}
+
+.drugi .text {
+    margin: 20vh 0 0 10vh;
+    font-size: 3vh;
+    width: 60vh;
+}
+
+.drugi img {
+    width: 60vh;
+}
+
+.majica {
+    position: relative;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    height: 80vh;
+    width: 60vh;
+}
+
+#majica_nike {
+    position: absolute;
+    width: 24.3vh;
+    top: 17.7vh;
+    left: 19.2vh;
+    opacity: 60%;
+}
+
+.drugi svg {
+    margin-top: auto;
+}
+
+
+/* torba beis */
+
+.tretji {
+    align-items: center;
+    background: rgb(245, 245, 245);
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.tretji .naslov {
+    width: 140vh;
+    text-transform: uppercase;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.tretji .vsebina {
+    display: flex;
+    margin-top: 3vh;
+    height: 80vh;
+}
+
+.tretji .text {
+    margin: 25vh 0vh 0vh 10vh;
+    font-size: 3vh;
+    width: 60vh;
+}
+
+.tretji img {
+    width: 80vh;
+    height: 80vh;
+}
+
+.tretji svg {
+    margin-top: auto;
+}
+
+.torba {
+    display: inline-block;
+    width: 80vh;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.torba canvas {
+    position: absolute;
+    width: 35vh;
+    top: 60.45vh;
+    left: 34.5vh;
+}
+
+
+/* footer */
+
+.footer {
+    height: 20vh;
+    background: rgb(37, 41, 52);
+}
+
+.footer .text {
+    color: rgb(255, 255, 255);
+    margin-left: 5vh;
+    font-size: 2.5vh;
+    width: 150vh;
+}
