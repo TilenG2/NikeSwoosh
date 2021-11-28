@@ -59,7 +59,7 @@ body {
 .prvi {
     align-items: center;
     background: rgb(245, 245, 245);
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -107,7 +107,7 @@ body {
 .drugi {
     align-items: center;
     background: rgb(75, 161, 189);
-    height: 150vh;
+    height: 135vh;
     display: flex;
     flex-direction: column;
     padding-top: 5vh;
