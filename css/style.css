@@ -59,7 +59,7 @@ body {
 .prvi {
     align-items: center;
     background: rgb(245, 245, 245);
-    height: 120vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
 }
