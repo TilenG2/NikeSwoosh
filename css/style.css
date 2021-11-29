@@ -5,15 +5,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Arimo', sans-serif; */
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Ubuntu', sans-serif; */
-    /* font-family: 'Mohave', sans-serif; */
+    font-family: 'Mohave', sans-serif;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 body {
-    /* background: rgb(25, 52, 109); */
     width: 100%;
     height: 100%;
 }
@@ -26,7 +25,7 @@ body {
     align-items: center;
     height: 110vh;
     background: rgba(25, 52, 109);
-    background: linear-gradient(180deg, rgba(25, 52, 109, 1) 0%, rgb(75, 161, 189) 100%);
+    background: linear-gradient(180deg, rgba(25, 52, 109, 1) 0%, rgb(72, 155, 205) 100%);
     display: flex;
     flex-direction: column;
 }
@@ -37,13 +36,13 @@ body {
 
 .uvod img {
     margin-top: 10vh;
-    width: 50vh;
+    width: 60vh;
 }
 
 .uvod .text {
     color: white;
     text-transform: uppercase;
-    width: 90vh;
+    width: 70vh;
     font-size: 10vh;
     margin-top: 10vh;
     margin-left: 6vh;
@@ -65,6 +64,7 @@ body {
 }
 
 .prvi .naslov {
+    color: rgb(25, 52, 109);
     text-transform: uppercase;
     font-size: 4vh;
     text-align: center;
@@ -76,6 +76,7 @@ body {
 }
 
 .prvi .text {
+    color: rgb(25, 52, 109);
     margin: 10vh 0 0 10vh;
     font-size: 3vh;
     width: 70vh;
@@ -111,7 +112,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 5vh;
-    background: linear-gradient(180deg, rgba(75, 161, 189, 1) 0%, rgb(30, 91, 161, 1) 90%);
+    background: linear-gradient(180deg, rgba(72, 155, 205, 1) 0%, rgb(30, 91, 161, 1) 90%);
 }
 
 .drugi .naslov {
@@ -168,6 +169,7 @@ body {
 }
 
 .tretji .naslov {
+    color: rgb(25, 52, 109);
     width: 140vh;
     text-transform: uppercase;
     font-size: 4vh;
@@ -181,6 +183,7 @@ body {
 }
 
 .tretji .text {
+    color: rgb(25, 52, 109);
     margin: 25vh 0vh 0vh 10vh;
     font-size: 3vh;
     width: 60vh;
