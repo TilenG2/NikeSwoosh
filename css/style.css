@@ -42,14 +42,14 @@ body {
 
 .uvod img {
     margin-top: 10vh;
-    width: 35vw;
+    width: 60vh;
 }
 
 .uvod .text {
     color: white;
     text-transform: uppercase;
-    width: 45vw;
-    font-size: 6vw;
+    width: 70vh;
+    font-size: 10vh;
     margin-top: 10vh;
     margin-left: 6vh;
 }
