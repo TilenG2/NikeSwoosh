@@ -103,7 +103,7 @@ body {
     width: 19.5vh;
     top: 29.7vh;
     left: 25.7vh;
-    opacity: 10%;
+    opacity: 70%;
 }
 
 .prvi svg {
@@ -157,10 +157,10 @@ body {
 
 #majica_nike {
     position: absolute;
-    width: 24.3vh;
-    top: 17.7vh;
-    left: 19.2vh;
-    opacity: 60%;
+    width: 26.5vh;
+    top: 12.5vh;
+    left: 18.6vh;
+    opacity: 90%;
 }
 
 .drugi svg {
@@ -221,6 +221,7 @@ body {
     width: 35vh;
     top: 60.45vh;
     left: 34.5vh;
+    opacity: 80%;
 }
 
 
