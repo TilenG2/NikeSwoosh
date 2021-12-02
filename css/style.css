@@ -42,14 +42,14 @@ body {
 
 .uvod img {
     margin-top: 10vh;
-    width: 70vh;
+    width: 60vh;
 }
 
 .uvod .text {
     color: white;
     text-transform: uppercase;
-    width: 75vh;
-    font-size: 12vh;
+    width: 70vh;
+    font-size: 11vh;
     margin-top: 10vh;
     margin-left: 6vh;
 }
@@ -227,6 +227,7 @@ body {
 /* footer */
 
 .footer {
+    display: flex;
     height: 20vh;
     background: rgb(37, 41, 52);
 }
@@ -234,5 +235,6 @@ body {
 .footer .text {
     color: rgb(255, 255, 255);
     margin-left: 5vh;
+    margin-right: 10vh;
     font-size: 2.5vh;
 }
