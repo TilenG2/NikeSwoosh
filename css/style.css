@@ -40,6 +40,18 @@ body {
     display: flex;
 }
 
+.uvod .slika {
+    position: relative;
+}
+
+#uvod_svg {
+    position: absolute;
+    width: 11.4vh;
+    top: 15.6vh;
+    left: 36.3vh;
+    opacity: 85%;
+}
+
 .uvod img {
     margin-top: 10vh;
     width: 60vh;
@@ -103,7 +115,7 @@ body {
     width: 19.5vh;
     top: 29.7vh;
     left: 25.7vh;
-    opacity: 70%;
+    opacity: 72%;
 }
 
 .prvi svg {
